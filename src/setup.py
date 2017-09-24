@@ -16,7 +16,8 @@ install_requires = ['elasticsearch',
                     "logstash_formatter",
                     "jsonschema",
                     "isodate",
-    ]
+                    "six",
+]
 
 long_desc = """A wrapper for Elasticsearch"""
 
