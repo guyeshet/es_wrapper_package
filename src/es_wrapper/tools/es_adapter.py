@@ -701,6 +701,10 @@ class ESAdapter:
         :return list index_list:
         """
         index_list = self.create_daily_index_list(index_pattern, min_timestamp, max_timestamp)
+        # patchi for too ling indices
+        if len(index_list) > 30:
+            index_list = index_pattern + "-*"
+
         es_response = self.es.search(index=index_list,
                                      body=query)
         values_dict = self.parse_aggregation_response_to_dict(es_response)

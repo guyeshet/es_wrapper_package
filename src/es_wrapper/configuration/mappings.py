@@ -16,6 +16,7 @@ class ESMapping:
     DOUBLE = "double"
     GEOPOINT = "geopoint"
     TIME = "time"
+    EPOCH = "epoch_millis"
     NESTED = "object"
 
     def __init__(self):
@@ -28,6 +29,7 @@ class ESMapping:
                                 self.DOUBLE: self.set_double_field,
                                 self.GEOPOINT: self.set_geo_point_field,
                                 self.TIME: self.set_time_field,
+                                self.EPOCH: self.set_epoch_field,
                                 self.NESTED: self.set_nested_field,
                                 }
 
@@ -110,6 +112,15 @@ class ESMapping:
         """
         return {"type": "date",
                 "format": "dateOptionalTime"}
+
+    @staticmethod
+    def set_epoch_field():
+        """
+        sets number mapping values
+        :return dictionary:
+        """
+        return {"type": "date",
+                "format": "epoch_millis"}
 
     def get_field_func(self, field_type):
         """
