@@ -77,18 +77,19 @@ def convert_iso_timestamp_to_epoch(timestamp_str):
     return to_epoch(dt)
 
 
-def from_epoch(epoch, divide_by_1000=True):
+def from_epoch(epoch, divide_by_1000=True, timestamp=TIMESTAMP_FORMAT):
     """
     Convert the number of ms from epoch to timestamp
     :param epoch: number of ms from epoch
     :param bool divide_by_1000: Whether we need to divide the epoch number
+    :param str timestamp: Which format to convert to
     :return timestamp: timestamp
     """
     epoch = convert_data_types(epoch)
     if divide_by_1000:
-        return time.strftime(TIMESTAMP_FORMAT, time.gmtime(epoch/1000))
+        return time.strftime(timestamp, time.gmtime(epoch/1000))
     else:
-        return time.strftime(TIMESTAMP_FORMAT, time.gmtime(epoch))
+        return time.strftime(timestamp, time.gmtime(epoch))
 
 
 def get_min_max_timestamps(interval_seconds, from_epoch=False, base_timestamp=None, max_is_now=True):
