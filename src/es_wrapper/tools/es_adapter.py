@@ -706,7 +706,8 @@ class ESAdapter:
             index_list = index_pattern + "-*"
 
         es_response = self.es.search(index=index_list,
-                                     body=query)
+                                     body=query,
+                                     request_timeout=120)
         values_dict = self.parse_aggregation_response_to_dict(es_response)
 
         return values_dict
