@@ -561,6 +561,8 @@ class ESAdapter:
                         for i in range(len(agg_list)):
                             agg_dict = agg_list[i]
                             value = extract_value(agg_dict, "key")
+                            if not value:
+                                continue
                             # Check if we are at the last aggregation
                             # Recursion stops when we reach the last aggregation
                             if len(agg_dict.keys()) <= 2:

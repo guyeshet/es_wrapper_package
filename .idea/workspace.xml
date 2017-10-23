@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="692e8f07-89a2-4783-a632-8afc0ef7d6cc" name="Default" comment="">
+    <list default="true" id="692e8f07-89a2-4783-a632-8afc0ef7d6cc" name="Default" comment="Daily index only *&#10;Working version 1.0.19">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es_wrapper/__init__.py" afterPath="$PROJECT_DIR$/src/es_wrapper/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py" afterPath="$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py" />
@@ -17,28 +17,7 @@
     <SUITE FILE_PATH="coverage/eswrapper$formats.coverage" NAME="formats Coverage Results" MODIFIED="1506252787142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/es_wrapper/general" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="es_adapter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="709" column="48" lean-forward="true" selection-start-line="709" selection-start-column="48" selection-end-line="709" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/es_wrapper/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -72,8 +51,8 @@
         <option value="$PROJECT_DIR$/src/setup.py" />
         <option value="$PROJECT_DIR$/src/es_wrapper/configuration/mappings.py" />
         <option value="$PROJECT_DIR$/src/es_wrapper/general/formats.py" />
-        <option value="$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py" />
         <option value="$PROJECT_DIR$/src/es_wrapper/__init__.py" />
+        <option value="$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py" />
       </list>
     </option>
   </component>
@@ -85,8 +64,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2" />
+    <option name="y" value="9" />
     <option name="width" value="1924" />
-    <option name="height" value="1038" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -117,19 +97,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="es_wrapper_package" type="cbb8eebc:String" user="es_wrapper_package" />
               <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="es_wrapper_package" type="cbb8eebc:String" user="es_wrapper_package" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="es_wrapper" type="cbb8eebc:String" user="es_wrapper" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="es_wrapper_package" type="cbb8eebc:String" user="es_wrapper_package" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="es_wrapper" type="cbb8eebc:String" user="es_wrapper" />
-              <item name="tools" type="cbb8eebc:String" user="tools" />
             </path>
           </expand>
           <select />
@@ -537,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507974716076</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Daily index only *&#10;Working version 1.0.19">
+      <created>1508012440383</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508012440383</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -545,15 +519,15 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17439294" sideWeight="0.5239583" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17439294" sideWeight="0.534375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17439294" sideWeight="0.47604167" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17439294" sideWeight="0.465625" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -614,7 +588,8 @@
     <MESSAGE value="Added &quot;six&quot; to the package dependencies&#10;Working version 1.0.12" />
     <MESSAGE value="Added EPOCH millis to mapping&#10;Working version 1.0.16" />
     <MESSAGE value="Added timestamp format as a parameter to from_epoch()&#10;Working version 1.0.17" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added timestamp format as a parameter to from_epoch()&#10;Working version 1.0.17" />
+    <MESSAGE value="Daily index only *&#10;Working version 1.0.19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Daily index only *&#10;Working version 1.0.19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,18 +927,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="709" column="48" lean-forward="true" selection-start-line="709" selection-start-column="48" selection-end-line="709" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/es_wrapper/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es_wrapper/tools/es_adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="564" column="40" lean-forward="false" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
           <folding />
         </state>
       </provider>
